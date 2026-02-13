@@ -1,0 +1,72 @@
+{
+  "model": "Gemini 2.5 Flash",
+  "task": "Palindrome Detection",
+  "user_prompt": {
+    "scenario": "You need to write a program that determines whether a given string is a palindrome. A string is considered a palindrome if it reads exactly the same forwards and backwards. Consider characters exactly as provided: comparisons are case-sensitive and spaces/punctuation are not ignored. Print 'true' if the input string is a palindrome and 'false' otherwise.",
+    "inputs": "A single line string S read from standard input. S may contain letters, digits, spaces, and punctuation. Treat the string exactly as given (other than the trailing newline from input).",
+    "outputs": "Print exactly one line containing either 'true' if S is a palindrome under exact matching, or 'false' otherwise.",
+    "example": "Input:\nracecar\n\nOutput:\ntrue",
+    "limits": "Not Available"
+  },
+  "generated_test_cases": [
+    {
+      "description": "M1: A clear, simple palindrome (odd length).",
+      "input": "madam",
+      "type": "main"
+    },
+    {
+      "description": "M2: A clear, simple non-palindrome.",
+      "input": "hello",
+      "type": "main"
+    },
+    {
+      "description": "M3: A non-palindrome with mixed characters (even length).",
+      "input": "A123BC",
+      "type": "main"
+    },
+    {
+      "description": "E1: Case-Sensitivity Test (Non-Palindrome).",
+      "input": "Racecar",
+      "type": "edge"
+    },
+    {
+      "description": "E2: Case-Sensitivity Test (Palindrome).",
+      "input": "aBbA",
+      "type": "edge"
+    },
+    {
+      "description": "E3: Palindrome with spaces and punctuation.",
+      "input": "a ! b ! a",
+      "type": "edge"
+    },
+    {
+      "description": "E4: Non-Palindrome failing due to asymmetrical punctuation.",
+      "input": "tenet!",
+      "type": "edge"
+    },
+    {
+      "description": "E5: Minimum length (1) string (Palindrome).",
+      "input": "X",
+      "type": "edge"
+    },
+    {
+      "description": "E6: Minimal even length (2) palindrome.",
+      "input": "aa",
+      "type": "edge"
+    }
+  ],
+  "analysis": {
+    "total_cases": 9,
+    "main_cases": 3,
+    "edge_cases": 6,
+    "manual_main_cases": 3,
+    "manual_edge_cases": 4,
+    "precision": 1.0,
+    "recall": 0.86,
+    "ratio": 1.28,
+    "redundant_cases": [
+      "E2 (case-sensitivity palindrome - overlaps with M1)",
+      "E6 (2-char palindrome - overlaps with E5 minimum length concept)"
+    ]
+  }
+}

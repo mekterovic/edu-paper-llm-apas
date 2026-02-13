@@ -1,0 +1,18 @@
+{
+  "model": "Gemini 3 Flash",
+  "task": "Line Intersection",
+  "user_prompt": "C program that takes two lines (y=ax+b) and outputs where the two lines intersect.",
+  "output": {
+    "scenario": "You are given two straight lines defined by the linear equations y = a1x + b1 and y = a2x + b2. Your goal is to determine the point (x, y) where these two lines intersect on a 2D plane.",
+    "inputs": "Four floating-point numbers: a1 (slope of line 1), b1 (y-intercept of line 1), a2 (slope of line 2), and b2 (y-intercept of line 2).",
+    "outputs": "If the lines intersect, output the coordinates as 'Intersect at (x, y)'. If the slopes are equal but intercepts are different, output 'Lines are parallel'. If both slopes and intercepts are equal, output 'Lines are identical'.",
+    "example": "Input: a1=2, b1=1, a2=-1, b2=7. Output: Intersect at (2.00, 5.00).",
+    "limits": "Time Limit: 1.0s. Memory Limit: 256MB. Calculation should use double precision for floating-point variables."
+  },
+  "evaluation": {
+    "appropriateness": 10,
+    "clarity": 10,
+    "formality": 10,
+    "correctness": 1
+  }
+}

@@ -1,0 +1,15 @@
+task,category,gpt5_1_appropriateness,gpt5_1_clarity,gpt5_1_formality,gpt5_1_correctness,gpt4_1_appropriateness,gpt4_1_clarity,gpt4_1_formality,gpt4_1_correctness,gemini3_appropriateness,gemini3_clarity,gemini3_formality,gemini3_correctness
+Manual string handling,concept,10,9,10,1,10,8,10,1,10,10,10,1
+Function-side effects,concept,10,9,7,1,8,7,8,1,9,8,10,1
+Dynamic memory allocation,concept,10,10,10,1,10,10,9,1,10,8,9,1
+Control-flow discipline,concept,10,10,10,1,10,10,8,1,10,10,10,1
+Stateful simulation,concept,10,10,10,1,8,8,9,1,10,9,10,1
+UPRO MI1 (23/24 1.term),UPRO,10,10,10,1,10,10,10,1,10,10,10,1
+UPRO MI2 (23/24 1.term),UPRO,10,5,10,0,10,5,10,1,10,5,10,1
+UPRO MI3 (23/24 1.term),UPRO,10,8,10,0,10,8,10,0,10,8,10,1
+UPRO MI4 (23/24 1.term),UPRO,10,8,10,0,10,8,10,0,10,8,10,0
+Palindrome,NASP,10,10,10,0,10,10,10,0,10,10,10,1
+10x10 tunnel,NASP,10,8,10,1,10,8,10,0,10,8,10,1
+Intersect,NASP,10,5,10,1,10,5,10,1,10,5,10,1
+Simple Simplex Solver,NASP,10,6,10,1,2,6,2,1,10,6,10,1
+AVERAGE,,10.00,8.31,9.77,0.69,9.08,7.92,8.92,0.69,9.92,8.08,9.92,0.92

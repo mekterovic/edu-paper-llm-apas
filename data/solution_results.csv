@@ -1,0 +1,16 @@
+task,course,gpt4_1_correct,notes
+UPRO MI1 (23/24 1.term),UPRO,TRUE,Midterm exam problem
+UPRO MI2 (23/24 1.term),UPRO,TRUE,Midterm exam problem
+UPRO MI3 (23/24 1.term),UPRO,TRUE,Midterm exam problem
+UPRO MI4 (23/24 1.term),UPRO,TRUE,Midterm exam problem
+Palindrome,NASP,TRUE,Advanced palindrome detection
+10x10 tunnel,NASP,TRUE,Grid traversal problem
+Intersect,NASP,TRUE,Line intersection calculation
+NASP Simplex,NASP,TRUE,Linear programming simplex method
+UPRO ZI1 (24/25 1.term),UPRO,TRUE,Final exam problem
+UPRO ZI2 (24/25 1.term),UPRO,TRUE,Final exam problem
+UPRO ZI3 (24/25 1.term),UPRO,TRUE,Final exam problem
+UPRO ZI1 (24/25 2.term),UPRO,TRUE,Final exam problem (2nd term)
+UPRO ZI2 (24/25 2.term),UPRO,TRUE,Final exam problem (2nd term)
+UPRO ZI3 (24/25 2.term),UPRO,TRUE,Final exam problem (2nd term)
+SUMMARY,ALL,100%,14/14 problems solved correctly
