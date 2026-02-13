@@ -1,4 +1,4 @@
-# RAG Systems for Programming Exam Generation
+# Evolving Programming Education with AI: Opportunities and Challenges of LLM-Integrated Assessment Systems
 
 [![Research](https://img.shields.io/badge/Research-Academic-blue)](https://github.com)
 [![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-orange)](<https://en.wikipedia.org/wiki/C_(programming_language)>)
